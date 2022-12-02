@@ -22,7 +22,7 @@ export default defineConfig({
       ],
       manifest: {
         name: "MWC RANCAEKEK",
-        short_name: "MyApp",
+        short_name: "MWC RANCAEKEK",
         description: "Majelis Wakil Cabang Nahdlatul Ulama Kecamatan Rancaekek",
         theme_color: "#ffffff",
         icons: [
