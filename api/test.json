@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "edikoswara",
+    "image": "https://images.unsplash.com/photo-1621841730147-3cb4dbe0c5c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2FudHJpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "title": "Santri Go International",
+    "slug": "slug"
+  },
+  {
+    "id": 2,
+    "name": "edikoswara",
+    "image": "https://images.unsplash.com/photo-1621841818525-5a3ec7067a41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2FudHJpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "title": "Santri Go International",
+    "slug": "slug"
+  },
+  {
+    "id": 3,
+    "name": "edikoswara",
+    "image": "https://images.unsplash.com/photo-1619238538198-0a71b158ea7c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FudHJpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "title": "Santri Go International",
+    "slug": "slug"
+  },
+  {
+    "id": 4,
+    "name": "edikoswara",
+    "image": "https://images.unsplash.com/photo-1629142423823-362e692d565e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2FudHJpfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "title": "Santri Go International",
+    "slug": "slug"
+  },
+  {
+    "id": 5,
+    "name": "edikoswara",
+    "image": "https://images.unsplash.com/photo-1627856703144-1a4bce85ea94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNhbnRyaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+    "title": "Santri Go International",
+    "slug": "slug"
+  }
+]

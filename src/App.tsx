@@ -1,4 +1,3 @@
-import Header from "./components/Header/Index";
 import Layouts from "./components/Layouts/Layouts";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
@@ -9,7 +8,6 @@ function App() {
   return (
     <>
       <Layouts>
-        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/warta" element={<Warta />} />
