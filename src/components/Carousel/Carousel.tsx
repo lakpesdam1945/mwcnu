@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import dataCarousel from "../../api/Carousel.json";
 
 interface Carousel {
   id: number;
@@ -12,16 +13,6 @@ const defaultCarouselProps = {
 };
 
 function Carousel() {
-  const [carousel, setCarousel] = useState([]);
-  const fetchCarousel = async () => {
-    const res = await fetch("/api/test.json");
-    const data = await res.json();
-    setCarousel(data);
-  };
-  useEffect(() => {
-    fetchCarousel();
-  }, []);
-
   return (
     <>
       <div className="pt-20 pb-20">
@@ -39,13 +30,13 @@ function Carousel() {
               aria-current="true"
               aria-label="Slide 1"
             />
-            {carousel.map((data: Carousel, index) => (
+            {dataCarousel.map((dataCarousel, index) => (
               <button
                 key={index}
                 type="button"
                 data-bs-target="#carouselExampleCaptions"
-                data-bs-slide-to={data.id}
-                aria-label={"Slide" + " " + (data.id + 1)}
+                data-bs-slide-to={dataCarousel.id}
+                aria-label={"Slide" + " " + (dataCarousel.id + 1)}
               />
             ))}
           </div>
@@ -60,18 +51,18 @@ function Carousel() {
                 <h5 className="text-xs">Santri Go International</h5>
               </div>
             </div>
-            {carousel.map((data: Carousel, index) => (
+            {dataCarousel.map((dataCarousel, index) => (
               <div
                 key={index}
                 className="carousel-item relative float-left w-full h-[200px]"
               >
                 <img
-                  src={data.image}
+                  src={dataCarousel.image}
                   className="h-full w-full object-cover bg-cover"
-                  alt={data.title}
+                  alt={dataCarousel.title}
                 />
                 <div className="carousel-caption block absolute text-center">
-                  <h5 className="text-xs">{data.title}</h5>
+                  <h5 className="text-xs">{dataCarousel.title}</h5>
                 </div>
               </div>
             ))}
