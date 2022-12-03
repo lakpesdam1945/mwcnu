@@ -14,7 +14,7 @@ const defaultCarouselProps = {
 function Carousel() {
   const [carousel, setCarousel] = useState([]);
   const fetchCarousel = async () => {
-    const res = await fetch("http://localhost:5173/api/test.json");
+    const res = await fetch("/api/test.json");
     const data = await res.json();
     setCarousel(data);
   };
