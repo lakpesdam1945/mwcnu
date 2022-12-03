@@ -91,9 +91,9 @@ function Menu(propsIn: Menu) {
   return (
     <ul
       className={`${
-        props.isToggle == toggleMenu ? "hidden" : "block"
+        props.isToggle == toggleMenu ? "block" : "hidden"
       } flex flex-col gap-2 py-4 w-full -mt-4 transition-transform ease-in-out ${
-        toggleMenu != props.isToggle ? "block" : "hidden"
+        toggleMenu != props.isToggle ? "hidden" : "block"
       } `}
     >
       <li>
